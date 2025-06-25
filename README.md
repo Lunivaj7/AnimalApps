@@ -40,7 +40,7 @@ The following EXTRA features are implemented:
 
 I have chosen to duplicate the following layout from the **App Name Here** app:
 
-<img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+<img src='https://imagedelivery.net/TdOFO8cMbrd4pybDkZvV1Q/25badfa6-768a-4242-a64d-fc8cdf830500/q=90,format=auto,onerror=redirect' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
 
 ## Video Demo
 
