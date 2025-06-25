@@ -59,9 +59,9 @@ GIF created with **your chosen GIF tool**
 
 Here is my entry for the "Create a second layout, this time for an original, personal app idea" stretch feature:
 
-It is for an app that **brief description**.
+It is for an app that **N/A**.
 
-<img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+N/A
 
 ## Notes
 
@@ -69,7 +69,7 @@ Here's a place for any other notes on the app, it's creation process, or what yo
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2025** **Luniva Joshi**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
