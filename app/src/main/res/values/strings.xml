@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AnimalApps</string>
+    <string name="lessonComplete">Lesson complete! +10 XP</string>
+</resources>

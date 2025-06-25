@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dailyGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You earned your daily treat!!"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".5" />
+
+    <TextView
+        android:id="@+id/lessonComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Training complete! +10 XP"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/dailyGoal"
+        app:layout_constraintStart_toStartOf="@+id/dailyGoal"
+        app:layout_constraintTop_toBottomOf="@+id/dailyGoal" />
+
+    <TextView
+        android:id="@+id/combo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Trick combo bonus! +2 XP"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/lessonComplete"
+        app:layout_constraintStart_toStartOf="@+id/lessonComplete"
+        app:layout_constraintTop_toBottomOf="@+id/lessonComplete"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/blue"
+        android:text="CONTINUE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/combo"
+        app:layout_constraintStart_toStartOf="@+id/combo"
+        app:layout_constraintTop_toBottomOf="@+id/combo" />
+
+    <ImageView
+        android:id="@+id/dog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-150dp"
+        android:rotation="8"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/yellowBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:srcCompat="@drawable/yellow_bar"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="340dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="300dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
